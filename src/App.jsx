@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bulma/css/bulma.min.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Shares from './components/Shares';
@@ -14,17 +14,11 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/shares">
-              <Shares />
-            </Route>
-            <Route path="/contact">
-              <div>İletişim Sayfası</div>
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/shares" element={<Shares />} />
+            <Route path="/contact" element={<div>İletişim Sayfası</div>} />
+          </Routes>
         </div>
         <Footer />
       </div>
