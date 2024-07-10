@@ -1,0 +1,18 @@
+.shares {
+    margin: 20px;
+  }
+  
+  .shares table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .shares table, th, td {
+    border: 1px solid black;
+  }
+  
+  .shares th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
