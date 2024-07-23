@@ -40,19 +40,19 @@
 }
 
 .info-section:nth-child(1) {
-  background-image: url("../assets/1.jpg");
+  background-image: url("../../assets/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .info-section:nth-child(2) {
-  background-image: url("../assets/2.jpg");
+  background-image: url("../../assets/2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .info-section:nth-child(3) {
-  background-image: url("../assets/5.png");
+  background-image: url("../../assets/5.png");
   background-size: cover;
   background-position: center;
   background-color: #8f8b8b;

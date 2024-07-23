@@ -13,7 +13,6 @@ const Home = () => {
       </p>
       <div className="info-sections">
         <div className="info-section">
-          <img src="../assets/1.jpg" alt="Kat Planları" />
           <h3>Kat Planları</h3>
           <p>
             Her bir katın planlarını görüntüleyerek kat irtifakını daha kolay
@@ -21,7 +20,6 @@ const Home = () => {
           </p>
         </div>
         <div className="info-section">
-          <img src="../assets/2.jpg" alt="Mülkiyet Dağılımı" />
           <h3>Hisse Dağılımı</h3>
           <p>
             Taşınmaz üzerindeki hisse dağılımlarını ve yüzdelerini detaylı
@@ -29,7 +27,6 @@ const Home = () => {
           </p>
         </div>
         <div className="info-section">
-          <img src="../assets/3.jpg" alt="İletişim" />
           <h3>İletişim</h3>
           <p>
             Herhangi bir sorunuz veya destek talepleriniz için bizimle iletişime
