@@ -1,43 +1,91 @@
 .project-creation {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4, h5 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.block-form, .apartment-form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.block-form h4, .apartment-form h5 {
+  margin-bottom: 10px;
+  color: #007BFF;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.summary {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.summary h4, .summary h5, .summary p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.summary h4 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .project-creation {
+    padding: 10px;
   }
-  
-  input, textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+
+  input, textarea, select {
     padding: 8px;
-    font-size: 16px;
   }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  .unit-form {
-    margin-top: 20px;
-  }
-  
-  .unit-form input {
-    margin-bottom: 5px;
-  }
-  
+
   button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 14px;
   }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .summary {
-    margin-top: 20px;
-  }
-  
+}
